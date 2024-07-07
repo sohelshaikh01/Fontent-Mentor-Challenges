@@ -1,0 +1,35 @@
+@media only screen and (max-width: 425px){
+    body{
+        font-size: 12px;
+    }
+    .cst {
+        display: none;
+    }
+
+    .cst2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .packages {
+        flex-direction: column;
+    }
+    p.discount {
+        display: none;
+    }
+
+    p.discount2 {
+        display: inline-block;
+    }
+    .top-content, footer{
+        padding: 30px;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer a {
+        margin-top: 20px;
+    }
+}

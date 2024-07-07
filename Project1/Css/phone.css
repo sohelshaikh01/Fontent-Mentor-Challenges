@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 1rem 2rem;
+    }
+
+
+    .plan-box {
+        padding: 1rem;
+    }
+
+    .hero {
+        height: 280px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-image: url(./Img/GreenBg.jpg) No-repeat cover;
+        font-size: 14px;
+        padding: 1rem 2rem;
+    }
+    .container {
+        max-width: 80%;
+    }
+
+    .hero {
+        height: 240px;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+    div.plan-box {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .plan-box-left div {
+        margin-left: 10px;
+    }
+
+    a.proceed-btn,
+    a.cancel-btn,
+    .plan-box {
+        font-size: 13px;
+        padding: 15px 0;
+    }
+
+    a.proceed-btn {
+        margin: 1rem 0;
+    }
+
+    .text-content {
+        padding: 9% 7%;
+    }
+}

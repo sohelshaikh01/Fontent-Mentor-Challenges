@@ -1,0 +1,105 @@
+*  {
+     margin : 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background-image: url(../Img/ViewBg.jpg);
+    /* Here the svg pattern file is used. */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+.container {
+    min-width: 100vw;
+    margin: 0 30px;
+    height: 100vh;
+}
+
+.wrapper {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 34px 0;
+    margin: 0.2rem;
+}
+
+.hero-img img {
+    height: 500px;
+    width: 800px;
+}
+
+a img {
+    height: 40px;
+    width: 40px;
+}
+
+.header img {
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.hero-text h1 {
+    color: #FFF;
+    font-family: 'Trebuchet MS',  'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    line-height: 1.4;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.hero-text a {
+    display: inline-block;
+    font-family: 'Trebuchet MS',  'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    background-color: #FFF;
+    padding: 13px 50px;
+    border-radius: 25px;
+    box-shadow: 0 8px 17px -8px rgba(0,0,0,0.8);
+    transition: all .3s ease;
+}
+
+.hero-text a:hover {
+    background-color: hsl(290, 77%, 68%);
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-wrap: row-reverse;
+}
+
+.social a img {
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    padding: 8px;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.social a:not(:first-child) {
+    margin-left: 2rem;
+}
+
+.social a img:hover {
+    color: hsl(290, 77%, 68%);
+}

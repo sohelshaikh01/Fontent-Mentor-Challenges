@@ -1,0 +1,25 @@
+@media only screen and (max-width: 320px){
+    body {
+        font-size: 13px;
+    }
+
+    .container {
+        max-width: 320px;
+        margin: 7px;
+    }
+    
+    .card {
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .text {
+        padding: 18px 10px;
+    }
+
+    .text p {
+        margin-top: 7px;
+    }
+
+   
+}

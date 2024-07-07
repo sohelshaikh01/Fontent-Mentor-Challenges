@@ -1,0 +1,91 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 42px;
+    width: 42px;
+}
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.box1 {
+    background: orange;
+}
+
+.box2 {
+    background: darkcyan;
+}
+
+.box3 {
+    background: hsl(179, 100%, 13%);
+}
+
+.box {
+    padding: 40px;
+}
+
+.box h2 {
+    font-family: verdana;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+.box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;  
+}
+
+.box a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 13px 27px;
+    border-radius: 25px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid whitesmoke;
+    transition: all .4s ease-in-out;
+}
+
+.box1 a {
+    color: orange;
+}
+
+.box2 a {
+    color: darkcyan;
+}
+
+.box3 a {
+    color: hsl(179, 100%, 13%);
+}
+
+.box a:hover {
+    color: whitesmoke;
+    background: transparent;
+}
+

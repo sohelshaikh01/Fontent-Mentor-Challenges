@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    body {
+        font-size: 12px;
+    }
+    .text-component {
+        padding: 12%;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .stat-box{
+        padding-top: 30px;
+    }
+    .stat-box p.num {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    body{
+        text-align: center;
+    }
+    .wraper {
+        grid-template-columns: 1fr; 
+    }
+    .img-component {
+        order: -1;
+    }
+    .text-component {
+        padding: 10% 7%;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .stat-box {
+        flex-direction: column;
+        padding-top: 30px;
+
+    }
+    .stat-box div {
+        margin-top: 20px;
+    }
+}
